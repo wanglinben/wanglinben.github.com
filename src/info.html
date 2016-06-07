@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <!--<script src="bootstrap-3.3.5-dist/js/jquery-1.12.3.min"></script>-->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid no-padding">
+        <div class="row no-padding bg-primary">
+        <div class="col-xs-3 col-md-3"><a class="btn" style="color: #ffffff;" href="my.html"><i class="fa fa-angle-left fa-3x"></i></a></div>
+        <div class="col-xs-6 col-md-3 cen"><h3>常用信息</h3></div>
+        </div>
+
+        <div class="container-fluid no-padding">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active">
+                    <a href="#home" data-toggle="tab">&emsp;&emsp;&nbsp;旅客&nbsp;&emsp;&emsp;</a>
+                </li>
+                <li>
+                    <a href="#ios" data-toggle="tab">&emsp;&emsp;&nbsp;地址&nbsp;&emsp;&emsp;</a>
+                </li>
+                <li>
+                    <a href="#fapiao" data-toggle="tab">&emsp;&emsp;&nbsp;发票&emsp;&emsp;</a>
+                </li>
+            </ul>
+
+            <div id="myTabContent" class="tab-content">
+
+                <div class="tab-pane fade in active" id="home">
+                    <div class="row no-padding">
+                        <div class="col-xs-6 col-md-6 cen"><button type="button" class="btn btn-primary"><i class="fa fa-plus-circle"></i>新增常用旅客</button></div>
+                        <div class="col-xs-6 col-md-6 cen"><button type="button" class="btn btn-default"><i class="fa fa-envelope-o"></i>邀请好友填写</button></div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <p class="ic-p">张三</p>
+                            <p class="ic-p">身份证 331003**********</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -30px;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="ic-p">张三</p>
+                            <p class="ic-p">身份证 331003**********</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -30px;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="ic-p">张三</p>
+                            <p class="ic-p">身份证 331003**********</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -30px;"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="ios">
+                    <div class="row no-padding">
+                        <div class="col-xs-1 col-md-1"></div>
+                        <div class="col-xs-10 col-md-10 cen"><button type="button" class="btn btn-primary btn-block"><i class="fa fa-plus-circle"></i>新增常用地址</button></div>
+                        <div class="col-xs-1 col-md-1"></div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span>177645****</span><span class="ic-p">&emsp;张三</span></br>
+                            <p class="ic-p">背景xxxxx</p>
+                            <p class="ic-p">318050</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -40px;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <span>177645****</span><span class="ic-p">&emsp;张三</span></br>
+                            <p class="ic-p">背景xxxxx</p>
+                            <p class="ic-p">318050</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -40px;"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <span>177645****</span><span class="ic-p">&emsp;张三</span></br>
+                            <p class="ic-p">背景xxxxx</p>
+                            <p class="ic-p">318050</p>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;margin-top: -40px;"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="fapiao">
+                    <div class="row no-padding">
+                        <div class="col-xs-1 col-md-1"></div>
+                        <div class="col-xs-10 col-md-10 cen"><button type="button" class="btn btn-primary btn-block"><i class="fa fa-plus-circle"></i>新增常用发票抬头</button></div>
+                        <div class="col-xs-1 col-md-1"></div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <span>张三</span>
+                            <i class="fa fa-angle-right fa-lg" style="float: right;"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script>
+    // 选取第一个标签页
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
+</script>
+</body>
+</html>

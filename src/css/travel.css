@@ -1,0 +1,58 @@
+body {
+	font-weight: bold;
+}
+#button {
+	margin-top: 13px;
+	background-color: #00B0FF;
+	border-color: #00B0FF;
+}
+#part1{
+	height:30px;
+	background-color:white;
+	border-right:1px solid gray;
+}
+#part2{
+	height:30px;
+	background-color:white;
+}
+#part1, #part2 {
+	border: solid 1px gray;
+}
+#text1{
+	color: blue;
+	font-size: 20px;
+	line-height: 30px;
+}
+#text2{
+	color: gray;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+.carousel-indicators .active {
+	background-color: #00C2AF;
+}
+.carousel-indicators li {
+	background-color: black;
+}
+
+.img_b{
+	width: 100%;
+}
+
+.im-wo{
+	font-size: 15px;
+}
+.part3{
+	height:200px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.part3-1{
+	height: 160px;
+}
+
+.img-2{
+	width: 100%;
+	height: 150px;
+}

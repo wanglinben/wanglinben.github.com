@@ -1,0 +1,43 @@
+.no-padding{
+    padding: 0;
+}
+
+.no-bg{
+    background: none;
+}
+
+.cen{
+    text-align: center;
+}
+
+.my-bor{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e8e8e8;
+}
+
+.my-block{
+    margin-top: 10px;
+    width: 98%;
+    border-radius: 4%;
+}
+
+.nav-pad{
+    padding: 10px 0px 0px 0px;
+}
+
+.no-bor{
+    border-style: none;
+}
+
+.ic-p{
+    margin: 0 0 5px;
+}
+
+.cir-bor{
+    border-radius: 50%;
+}
+
+.ju-bor{
+    border-radius: 4%;
+}
