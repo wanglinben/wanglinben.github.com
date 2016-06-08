@@ -19,7 +19,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice1',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -28,7 +28,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice2',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -37,7 +37,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice3',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -46,7 +46,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice4',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -55,7 +55,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice5',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -64,7 +64,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice6',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -73,7 +73,7 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice7',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();
 
@@ -82,6 +82,6 @@ var cityPicker = new IIInsomniaCityPicker({
     target: '#cityChoice8',
     valType: 'k-v',
     hideCityInput: '#city',
-    hideProvinceInput: '#province',
+    hideProvinceInput: '#province'
 });
 cityPicker.init();

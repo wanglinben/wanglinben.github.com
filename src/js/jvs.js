@@ -10,44 +10,44 @@ var id,
 function change() {
 	count++;
 	if(count==1){
-	  white_1.src="images/purple.png";
-	  white_2.src="images/white.png";
-	  white_3.src="images/white.png";
-	  white_4.src="images/white.png";
-	  white_5.src="images/white.png";
-	  container1.style.background="url(images/red.png)";
+	  white_1.src="img/purple.png";
+	  white_2.src="img/white.png";
+	  white_3.src="img/white.png";
+	  white_4.src="img/white.png";
+	  white_5.src="img/white.png";
+	  container1.style.background="url(img/red.png)";
 	}
     else if(count==2){
-      white_1.src="images/white.png";
-	  white_2.src="images/purple.png";
-	  white_3.src="images/white.png";
-	  white_4.src="images/white.png";
-	  white_5.src="images/white.png";
-	  container1.style.background="url(images/orange.png)";
+      white_1.src="img/white.png";
+	  white_2.src="img/purple.png";
+	  white_3.src="img/white.png";
+	  white_4.src="img/white.png";
+	  white_5.src="img/white.png";
+	  container1.style.background="url(img/orange.png)";
     }
     else if(count==3){
-      white_1.src="images/white.png";
-	  white_2.src="images/white.png";
-	  white_3.src="images/purple.png";
-	  white_4.src="images/white.png";
-	  white_5.src="images/white.png";
-	  container1.style.background="url(images/yellow.png)";
+      white_1.src="img/white.png";
+	  white_2.src="img/white.png";
+	  white_3.src="img/purple.png";
+	  white_4.src="img/white.png";
+	  white_5.src="img/white.png";
+	  container1.style.background="url(img/yellow.png)";
     }
     else if(count==4){
-      white_1.src="images/white.png";
-	  white_2.src="images/white.png";
-	  white_3.src="images/white.png";
-	  white_4.src="images/purple.png";
-	  white_5.src="images/white.png";
-	  container1.style.background="url(images/green.png)";
+      white_1.src="img/white.png";
+	  white_2.src="img/white.png";
+	  white_3.src="img/white.png";
+	  white_4.src="img/purple.png";
+	  white_5.src="img/white.png";
+	  container1.style.background="url(img/green.png)";
     }
     else if(count==5){
-      white_1.src="images/white.png";
-	  white_2.src="images/white.png";
-	  white_3.src="images/white.png";
-	  white_4.src="images/white.png";
-	  white_5.src="images/purple.png";
-	  container1.style.background="url(images/blue.png)";
+      white_1.src="img/white.png";
+	  white_2.src="img/white.png";
+	  white_3.src="img/white.png";
+	  white_4.src="img/white.png";
+	  white_5.src="img/purple.png";
+	  container1.style.background="url(img/blue.png)";
       count=0;
     }
 }
