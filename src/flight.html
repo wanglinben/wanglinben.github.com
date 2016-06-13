@@ -1,1 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>flight</title>
 
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/flight.css">
+</head>
+<body>
+    <div class="row" id="row1">
+  		<div class="col-xs-2">
+  			<button type="button" class="btn btn-default btn-xs" id="bt1">
+  				<span class="glyphicon glyphicon-chevron-left" id="pic1"></span>
+			</button>
+  		</div>
+  		<div class="col-xs-8" id="tx1">机票订购</div>
+  		<div class="col-xs-2"></div>
+	</div>
+	
+	<div id="myCarousel" class="carousel slide">
+	    <!-- 轮播（Carousel）指标 -->
+	    <ol class="carousel-indicators">
+	      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="1"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="2"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="3"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="4"></li>
+		</ol>
+		<!-- 轮播（Carousel）项目 -->
+	    <div class="carousel-inner">
+	    	<div class="item active" id="pic">
+				<img src="http://images3.c-ctrip.com/rk/201602/ghtdc780235.jpg">
+			</div>
+			<div class="item"  id="pic">
+				<img src="http://images3.c-ctrip.com/rk/201501/fd780b.jpg">
+			</div>
+			<div class="item"  id="pic">
+				<img src="http://images3.c-ctrip.com/rk/201605/schk780x235.jpg">
+			</div>
+			<div class="item"  id="pic">
+				<img src="http://images4.c-ctrip.com/target//fd/flight/g5/M01/7D/31/CggYr1c5h8SAQnkdAACPvGdr2ZE083.jpg">
+			</div>
+			<div class="item"  id="pic">
+				<img src="http://images3.c-ctrip.com/rk/201605/xzhk780235.jpg">
+			</div>
+		</div>
+	</div>
+	<!-- 选项卡 -->
+	<ul id="myTab" class="nav nav-tabs">
+   		<li class="active"><a href="#One-Way" data-toggle="tab">单程</a></li>
+   		<li><a href="#Round-Trip" data-toggle="tab">往返</a></li>
+   		<li><a href="#Multi-Pass" data-toggle="tab">多程</a></li>
+   	</ul>
+    <div id="myTabContent" class="tab-content">
+    	<div class="tab-pane fade in active" id="One-Way">
+			<div class="row" id="row2">
+				<div class="col-xs-5" id="row2-1">杭州</div>
+				<div class="col-xs-2">
+					<button type="button" class="btn btn-default btn-xs" id="bt2">
+  						<span class="glyphicon glyphicon-plane" id="pic2"></span>
+					</button>
+				</div>
+				<div class="col-xs-5" id="row2-3">北京</div>
+			</div>
+
+			<div class="row" id="row3">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-6" id="row3-1">6月9日明天</div>
+				<div class="col-xs-5"></div>
+			</div>
+
+			<div class="row" id="row4">
+				<div class="col-xs-6" id="s1">
+					<select class="form-control">
+						<option>舱位不限</option>
+        				<option>经济舱</option>
+        				<option>超级经济舱</option>
+        				<option>公务舱</option>
+        				<option>头等舱</option>
+        			</select>
+				</div>
+				<div class="col-xs-6" id="s1">
+					1成人0儿童/婴儿
+				</div>
+			</div>
+
+			<div class="row" id="row5">
+				<button type="button" class="btn btn-default btn-xs" id="bt3">搜索</button>
+			</div>
+		</div>
+
+		<div class="tab-pane fade" id="Round-Trip">
+			<div class="row" id="row2">
+				<div class="col-xs-5" id="row2-1">杭州</div>
+				<div class="col-xs-2">
+					<button type="button" class="btn btn-default btn-xs" id="bt2">
+  						<span class="glyphicon glyphicon-plane" id="pic2"></span>
+					</button>
+				</div>
+				<div class="col-xs-5" id="row2-3">北京</div>
+			</div>
+
+			<div class="row" id="row3">
+				<div class="col-xs-1"></div>
+				<div class="col-xs-5" id="row3-1">6月9日明天</div>
+				<div class="col-xs-1"></div>
+				<div class="col-xs-5" id="row3-1">6月11日周六</div>
+			</div>
+
+			<div class="row" id="row4">
+				<div class="col-xs-6" id="row4-1">
+					<select class="form-control">
+        				<option>舱位不限</option>
+        				<option>经济舱</option>
+        				<option>超级经济舱</option>
+        				<option>公务舱</option>
+        				<option>头等舱</option>
+        			</select>
+				</div>
+				<div class="col-xs-6" id="row4-2">
+					1成人0儿童/婴儿
+				</div>
+			</div>
+
+			<div class="row" id="row5">
+				<button type="button" class="btn btn-default btn-xs" id="bt3">搜索</button>
+			</div>
+		</div>
+
+		<div class="tab-pane fade" id="Multi-Pass">
+			<div class="col-xs-1">
+				<div id="No1">1</div>
+			</div>
+			<div class="col-xs-11">
+				<div class="row" id="row2">
+					<div class="col-xs-5" id="row2-1">杭州</div>
+					<div class="col-xs-2">
+						<button type="button" class="btn btn-default btn-xs" id="bt2">
+  							<span class="glyphicon glyphicon-plane" id="pic2"></span>
+						</button>
+					</div>
+					<div class="col-xs-5" id="row2-3">北京</div>
+				</div>
+
+				<div class="row" id="row3">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-6" id="row3-1">6月9日</div>
+					<div class="col-xs-5"></div>
+				</div>
+			</div>
+			
+			<div class="col-xs-1">
+				<div id="No2">2</div>
+			</div>
+			<div class="col-xs-11">
+				<div class="row" id="row2">
+					<div class="col-xs-5" id="row2-1">北京</div>
+					<div class="col-xs-2">
+						<button type="button" class="btn btn-default btn-xs" id="bt2">
+  							<span class="glyphicon glyphicon-plane" id="pic2"></span>
+						</button>
+					</div>
+					<div class="col-xs-5" id="row2-3">到达城市</div>
+				</div>
+
+				<div class="row" id="row3">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-6" id="row3-1">6月12日</div>
+					<div class="col-xs-5"></div>
+				</div>
+			</div>
+			
+			<div class="col-xs-12">
+				<div class="row" id="row6">
+					<button type="button" class="btn btn-default btn-xs" id="bt4">
+  						<span class="glyphicon glyphicon-plus" id="pic3"></span>
+					</button>再加一程
+				</div>
+			</div>
+			
+			<div class="col-xs-12">
+				<div class="row" id="row4">
+					<div class="col-xs-6" id="row4-1">
+						<select class="form-control">
+        					<option>舱位不限</option>
+        					<option>经济舱</option>
+        					<option>超级经济舱</option>
+        					<option>公务舱</option>
+        					<option>头等舱</option>
+	        			</select>
+					</div>
+					<div class="col-xs-6" id="row4-2">
+						1成人0儿童/婴儿
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12">
+				<div class="row" id="row5">
+					<button type="button" class="btn btn-default btn-xs" id="bt3">搜索</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/flight.js"></script>
+</body>
+</html>
