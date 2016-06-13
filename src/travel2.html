@@ -1,1 +1,139 @@
-travel2
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>travel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!-- <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="css/travel2.css">
+  </head>
+  <body>
+	<div class="row" id="R1">
+  		<div class="col-xs-1">
+  			<button type="button" class="btn btn-default btn-xs" id="button">
+  				<span class="glyphicon glyphicon-chevron-left" id="pic1"></span>
+			</button>
+  		</div>
+  		<div class="col-xs-1"></div>
+  		<div class="col-xs-8" id="R2">
+  			<p class="T">目的地攻略</p>
+  		</div>
+  		<div class="col-xs-2">
+  			<span class="fa fa-search" id="button"></span>
+  		</div>
+  	</div>
+
+	<div id="myCarousel" class="carousel slide">
+	    <!-- 轮播（Carousel）指标 -->
+	    <ol class="carousel-indicators">
+	      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="1"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="2"></li>
+ 	     	<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<!-- 轮播（Carousel）项目 -->
+	    <div class="carousel-inner">
+	    	<div class="item active">
+				<img src="http://images3.c-ctrip.com/dj/app/201605/Banner_%20695x290.jpg" id="im">
+			</div>
+			<div class="item">
+				<img src="http://images3.c-ctrip.com/dj/201604/tmh/Bali_695x290.jpg" id="im">
+			</div>
+			<div class="item">
+				<img src="http://images3.c-ctrip.com/dj/201605/tmh/wb/bwg_695x290.png" id="im">
+			</div>
+			<div class="item">
+				<img src="http://images3.c-ctrip.com/dj/201606/tmh/fzly_695x290.jpg" id="im">
+			</div>
+		</div>
+	</div> 	
+	
+	<div class="row" id="R3">
+  		<div class="col-xs-1"></div>
+  		<div class="col-xs-10">
+  			<div class="col-xs-1"></div>
+  			<div class="partA">
+  			<div class="col-xs-1">
+  				<span class="fa fa-search"></span>
+  			</div>
+  			<div class="col-xs-9">
+  				目的地 景点 游记 问答 用户
+  			</div>
+  		</div>
+  			<div class="col-xs-1"></div>
+  		</div>
+  		 <div class="col-xs-1"></div>	
+  	</div>	
+
+  	<div class="row" id="part"></div>
+    
+    	<div class="row" id="partB">
+    		<div class="col-xs-6" id="partB-1">	
+    			<div><img src="image/picture1.png" id="picture"></div>
+    			<div class="t">
+    			   <p>国内</p> 目的地 
+    			   </div>  			  		
+    		</div>
+    		<div class="col-xs-6" id="partB-2">
+    			<div><img src="image/picture2.png" id="picture"></div>
+    			<div class="t">
+    			    <p>国外</p> 目的地 
+    			    </div> 
+    		</div>
+	</div>
+
+	<div class="row" id="partC">
+		<div class="col-xs-1" id="marker2">
+		<span class="fa fa-bookmark"></span>
+	</div>
+		<div class="col-xs-4" id="t2">行程决策器</div>
+		<div class="col-xs-6" id="t3">个性化游玩计划三步搞定</div>
+	<div class="col-xs-1">
+		<span class="fa fa-angle-right" id="marker3"></span>
+	</div>
+	</div>
+
+	<div class="row" id="part"></div>
+
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-4" id="partD">
+			推荐目的地
+		</div>
+		<div class="col-xs-4"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-6">
+			<img src="image/picture3.jpg" id="picture2">
+			<p>上海</p>SHANGHAI
+		</div>
+		<div class="col-xs-6">
+			<img src="image/picture4.jpg" id="picture2">
+			<p>杭州</p>HANGZHOU
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img src="image/picture5.jpg" id="picture2">
+			<p>江苏</p>JIANGSU
+		</div>
+		<div class="col-xs-6">
+			<img src="image/picture6.jpg" id="picture2">
+			<p>无锡</p>WUXI
+		</div>
+	</div>
+	
+   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+     <!-- <script src="bootstrap-3.3.5-dist/js/jquery-1.12.3.min"></script> -->
+
+   <script src="jquery-1.12.3.min.js"></script>
+   <!-- <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/travel2.js"></script>
+  </body>
+</html>
