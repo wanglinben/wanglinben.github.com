@@ -1,1 +1,72 @@
 
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#row1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+	vertical-align: middle;
+	height: 40px;
+	color: white;
+	background-color: #00B0FF;
+}
+
+#bt1, #bt2 {
+	position:relative;
+	background-color: #00B0FF;
+	border-color: #00B0FF;
+}
+#bt1 {
+	color: white;
+}
+#bt2 {
+	font-size: 18px;
+}
+#tx1 {
+	line-height: 40px;
+}
+
+.carousel-indicators .active {
+	background-color: #00C2AF;
+}
+.carousel-indicators li {
+	background-color: #F59000;
+}
+
+.img-circle {
+	height: 100px;
+	width: 100px;
+}
+
+#row2 {
+	font-size: 22px;
+	text-align: center;
+	color: #a5e6fb;
+	border-bottom: solid 8px #e8e2e2;
+}
+#row2-1, #row2-2 {
+	height: 130px;
+	border-right: solid 1px #e8e2e2;
+}
+#row2-2, #row2-3 {
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+}
+.img-label {
+    position: absolute;
+    top: 12px;
+    left: -20px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 0px;
+    width: 85px;
+    border-bottom: 20px solid #43CCA4;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotate(-45deg);
+}
