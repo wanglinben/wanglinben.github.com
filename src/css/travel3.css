@@ -1,1 +1,99 @@
-travel3
+#p{
+	text-align: center;
+	font-size: 20px;
+	vertical-align: middle;
+	height: 50px;
+	background-color: #00B0FF;
+	color: white;
+}
+#button {
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	background-color: #00B0FF;
+	border-color: #00B0FF;
+}
+#tx{
+	height:90px;
+	line-height: 50px;
+}
+#button2 {
+	margin-top: 15px;
+	color: white;
+	font-size: 20px;
+	background-color: #00B0FF;
+	border-color: #00B0FF;
+}
+#myCarousel{
+	bottom: 40px;
+}
+.carousel-indicators .active {
+	background-color: #00C2AF;
+}
+.carousel-indicators li {
+	background-color: #F1F0ED;
+}
+#pa1 {
+	text-align:center;
+	width:400px;
+	height:180px;
+	border-bottom: solid 1px #ECE5E5;
+}
+.img-circle {
+	height: 50px;
+	width: 50px;
+}
+.sec {
+	position: relative;
+	margin: 10px;
+}
+.pa2{
+	height:30px;
+	background-color:white;
+	border:1px solid gray;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	color: gray;
+}
+#ro{
+	height: 30px;
+}
+#pa3{
+	background-color: rgb(249,247,247);
+	height: 20px;
+}
+.sec2 {
+	height: 110px;
+	width: 100%;
+	padding:5px;
+}
+#pa4{
+	height: 30px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 16px;
+}
+#pa5{
+	margin:3px;
+}
+#pa6{
+	height: 30px;
+	border:1px solid gray;
+	background-color: white;
+	color: red;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+}
+#pa7{
+	height: 30px;
+	border:1px solid gray;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+}
