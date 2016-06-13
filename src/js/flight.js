@@ -3,8 +3,4 @@ $(document).ready(function() {
      	interval: 2000
     })
     
-    $(function () { 
-    	$("[data-toggle='popover']").popover();
-    });
-   
 });
