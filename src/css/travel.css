@@ -51,44 +51,44 @@ body {
 .carousel-indicators li {
 	background-color: black;
 }
-#im_a{
+#im_a {
 	height: 200px;
 	width: 100%;
 }
-#r3{
+#r3 {
 	height: 50px;
 }
-#r4{
+#r4 {
 	text-align: center;
 }
-.img_b{
-	width: 100%;
+.img_b {
+	width:75%;
 }
 
-.im-wo{
+.im-wo {
 	font-size: 15px;
 }
-.part3{
+.part3 {
 	height:100px;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
-#part3-1{
+#part3-1 {
 	height: 160px;
 }
 
-.img-2{
+.img-2 {
 	width: 100%;
 	height: 100px;
 }
-.part4-1{
+.part4-1 {
 	padding: 0px;
 }
-#im_c{
+#im_c {
 	width: 100%;
 	height:160px;
 }
-#im_d{
+#im_d {
 	width: 100%;
 	height: 80px;
 }
