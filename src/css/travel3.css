@@ -1,4 +1,8 @@
-#p{
+.row {
+	margin-left:0px;
+	margin-right:0px;
+}
+#p {
 	text-align: center;
 	font-size: 20px;
 	vertical-align: middle;
@@ -13,7 +17,7 @@
 	background-color: #00B0FF;
 	border-color: #00B0FF;
 }
-#tx{
+#tx {
 	height:90px;
 	line-height: 50px;
 }
@@ -24,7 +28,7 @@
 	background-color: #00B0FF;
 	border-color: #00B0FF;
 }
-#myCarousel{
+#myCarousel {
 	bottom: 40px;
     z-index: -1;
 }
@@ -36,7 +40,7 @@
 }
 #pa1 {
 	text-align:center;
-	width:400px;
+	width:100%;
 	height:180px;
 	border-bottom: solid 1px #ECE5E5;
 }
@@ -48,7 +52,7 @@
 	position: relative;
 	margin: 10px;
 }
-.pa2{
+.pa2 {
 	height:30px;
 	background-color:white;
 	border:1px solid gray;
@@ -57,10 +61,10 @@
 	border-radius: 5px;
 	color: gray;
 }
-#ro{
+#ro {
 	height: 30px;
 }
-#pa3{
+#pa3 {
 	background-color: rgb(249,247,247);
 	height: 20px;
 }
@@ -69,7 +73,7 @@
 	width: 100%;
 	padding:5px;
 }
-#pa4{
+#pa4 {
 	height: 30px;
 	background-color: white;
 	color: black;
@@ -77,10 +81,10 @@
 	margin-top: 20px;
 	font-size: 16px;
 }
-#pa5{
+#pa5 {
 	margin:3px;
 }
-#pa6{
+#pa6 {
 	height: 30px;
 	border:1px solid gray;
 	background-color: white;
@@ -89,7 +93,7 @@
 	font-size: 16px;
 	line-height: 30px;
 }
-#pa7{
+#pa7 {
 	height: 30px;
 	border:1px solid gray;
 	background-color: white;
