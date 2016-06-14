@@ -1,3 +1,149 @@
 /**
  * Created by asusa550j on 2016/5/25.
  */
+var app= angular.module('myapp',[]);
+app.controller('orderController',function($scope){
+    $scope.num=0;
+    $scope.cheps=[
+       {
+           add:"苏州-杭州东",
+           time:"12:30-1:26",
+           cc:"GB1603",
+           dh:1
+       },
+       {
+           add:"苏州-杭州",
+           time:"12:30-1:26",
+           cc:"GB1608",
+           dh:2
+       },
+       {
+           add:"苏州东-杭州",
+           time:"12:30-1:26",
+           cc:"GB103",
+           dh:3
+       }
+   ]
+
+    $scope.dele=function(x){
+       $scope.cheps.splice(x,1)
+    }
+});
+
+app.controller('infoController',function($scope){
+    $scope.na="";
+    $scope.xi="";
+    $scope.mi="";
+    $scope.ph="";
+    $scope.ic="";
+    $scope.yb="";
+    $scope.addr="";
+    $scope.lvks=[
+        {
+            name:"张三",
+            idCard:"331004********1256",
+            ex:"zhang",
+            em:"san",
+            phone:"1776*****23"
+        },
+        {
+            name:"张宝",
+            idCard:"331004********159X",
+            ex:"zhang",
+            em:"san",
+            phone:"1776*****23"
+        },
+        {
+            name:"张阿宝",
+            idCard:"331004********5988",
+            ex:"zhang",
+            em:"san",
+            phone:"1776*****23"
+        }
+    ]
+
+    $scope.lxfss=[
+        {
+            phone:"1776*****23",
+            name:"张三",
+            add:"北京朝阳区",
+            youb:"318050"
+        },
+        {
+            phone:"1778*****46",
+            name:"张宝",
+            add:"北京朝阳区",
+            youb:"318050"
+        },
+        {
+            phone:"1776*****56",
+            name:"张阿宝",
+            add:"北京朝阳区",
+            youb:"318050"
+        }
+    ]
+
+    $scope.fps=[
+        {
+            name:"张三"
+        }
+    ]
+
+    $scope.add=function(){
+        $scope.lvks.push({name:$scope.na,idCard:$scope.ic,ex:$scope.xi,em:$scope.mi,ohone:$scope.ph});
+        console.log($scope.lvks);
+        alert("保存成功");
+    }
+
+    $scope.addad=function(){
+        $scope.lxfss.push({phone:$scope.ph,name:$scope.na,add:$scope.addr,youb:$scope.yb});
+        console.log($scope.lxfss);
+        alert("保存成功");
+    }
+});
+
+app.controller('myController',function($scope,$rootScope){
+    $rootScope.person={
+        name:"张三",
+        xj:0,
+        lj:100,
+        fx:0
+    }
+
+});
+
+app.controller('bdController',function($scope){
+   $scope.jds=[
+       {
+           header:"杭州西湖加雷锋塔+花港观鱼+灵隐寺飞来峰一日游",
+           img:"img/01.png"
+       },
+       {
+           header:"杭州西溪湿地+宋城千古情观众席一日游",
+           img:"img/02.png"
+       },
+       {
+           header:"千岛湖中心胡区+等梅峰观群岛一日游",
+           img:"img/03.png"
+       }
+   ]
+
+    $scope.zbs=[
+        {
+            header:"宁波方特东方神画体验一日游",
+            img:"img/04.png"
+        },
+        {
+            header:"苏州寒山寺+姑苏水上游+盘门景区一日游",
+            img:"img/05.png"
+        },
+        {
+            header:"临安大明山一日游",
+            img:"img/06.png"
+        }
+    ]
+});
+
+$("#tijiao").click(function(){
+   alert("提交成功") ;
+});

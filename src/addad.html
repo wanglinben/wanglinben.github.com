@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <script src="bootstrap-3.3.5-dist/js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid no-padding" ng-controller="infoController">
+    <div class="row no-padding bg-primary">
+        <div class="col-xs-3 col-md-3"><a class="btn whi-wor no-bg nav-pad mg-t10"  href="info.html">取消</a></div>
+        <div class="col-xs-6 col-md-3 cen"><h3>新增常用旅客</h3></div>
+        <div class="col-xs-3 col-md-3"><button class="btn no-bg nav-pad" id ="baocun" ng-click="addad()">保存</button></div>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span>中文姓名&emsp;&emsp;</span><input class="no-bor" type="text" placeholder="确保与证件一致" ng-model="na">
+        </li>
+        <li class="list-group-item">
+            <span>地址&emsp;&emsp;</span><input class="no-bor" type="text" placeholder="当前居住地址" ng-model="addr">
+        </li>
+        <li class="list-group-item">
+            <span>邮编&emsp;&emsp;</span><input class=" no-bor" type="text" placeholder="所在地邮政编码" ng-model="yb">
+        </li>
+        <li class="list-group-item">
+            <span>联系电话&emsp;&emsp;</span><input class="no-bor" type="text" placeholder="联系电话" ng-model="ph">
+        </li>
+    </ul>
+</div>
+
+<script src="js/angular/angular-1.5.1.mini.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

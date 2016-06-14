@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <script src="bootstrap-3.3.5-dist/js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid no-padding" ng-controller="bdController">
+    <div class="container-fluid" id="zb-he">
+        <a class="btn"  href="lvxing.html"><i class="fa fa-angle-left fa-3x"></i></a>
+        <h2 class="bl-wor lv-cen">周边乐趣</h2>
+    </div>
+
+    <div class="list-group con-wid or-list-le">
+        <div class="list-group-item" ng-repeat="x in zbs">
+            <h4>{{x.header}}</h4>
+            <img ng-src="{{x.img}}" class="con-wid">
+        </div>
+    </div>
+</div>
+
+
+<script src="js/angular/angular-1.5.1.mini.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

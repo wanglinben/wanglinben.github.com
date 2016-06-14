@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <script src="bootstrap-3.3.5-dist/js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid no-padding con-hei">
+    <div class="row no-padding bg-primary">
+        <div class="col-xs-3 col-md-3"><a class="btn whi-wor"  href="customerservice.html"><i class="fa fa-angle-left fa-3x"></i></a></div>
+        <div class="col-xs-6 col-md-3 cen"><h3>新增投诉</h3></div>
+        <div class="col-xs-3 col-md-3"><button class="btn no-bg nav-pad" id="tijiao">提交</button></div>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a><span>订单号</span><i class="fa fa-angle-right fl-ri"></i></a>
+        </li>
+        <li class="list-group-item">
+            <a><span>产品类型</span><i class="fa fa-angle-right fl-ri"></i></a>
+        </li>
+        <li class="list-group-item">
+            <input class="" type="text" placeholder="投诉内容" id="tousu">
+        </li>
+        <li class="list-group-item">
+            投诉联系人
+        </li>
+        <li class="list-group-item">
+            <span>姓名</span><input class="no-bor" type="text" placeholder="必填" >
+        </li>
+        <li class="list-group-item">
+            <span>称呼</span><input class="no-bor" type="text" placeholder="先生or女士" >
+        </li>
+        <li class="list-group-item">
+            <span>手机</span><input class=" no-bor" type="text" placeholder="手机邮箱二选一" >
+        </li>
+        <li class="list-group-item">
+            <span>邮箱</span><input class="no-bor" type="text" placeholder="手机邮箱二选一">
+        </li>
+    </ul>
+    </div>
+</body>
+<script src="js/angular/angular-1.5.1.mini.js"></script>
+<script src="js/main.js"></script>
+</html>
