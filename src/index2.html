@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Tour Guider</title>
+	<title>Tour Guider</title>
 
-    <!-- Bootstrap -->
+	<!-- Bootstrap -->
     <link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/index-style.css" rel="stylesheet">
+   
 </head>
 <body>
+      
+	<div class="container-fluid con1" id="container1">
+      <div class="col-xs-10">
+          <div class="container-fluid con2">
+              <div class="col-xs-1 ">
+                 <i class="fa fa-search" id="fa_search"></i>
+              </div>
+              <div class="col-xs-8">
+                <input placeholder="宋仲基见面会" id="inp_search" ></input>
+              </div>
+              <div class="col-xs-1 con2_fa">
+                 <i class="fa fa-microphone" id="fa_mir"></i>
+              </div>
+          </div>
+       </div> 
+        <div class="col-xs-2">
+          <div class="env_box" align="center">
+                 <i class="fa fa-wechat" id="fa_env"></i>
+          </div>
+       </div>
 
-<div class="container-fluid con1" id="container1">
-    <div class="col-xs-10">
-        <div class="container-fluid con2">
-            <div class="col-xs-1 ">
-                <i class="fa fa-search" id="fa_search"></i>
-            </div>
-            <div class="col-xs-8">
-                <input placeholder="宋仲基见面会">
-            </div>
-            <div class="col-xs-1 con2_fa">
-                <i class="fa fa-microphone" id="fa_mir"></i>
-            </div>
+        <div class="col-xs-4 col-xs-offset-4" align="center"> 
+            <img src="images/purple.png" alt="white" class="img-circle white" id="white_1">
+            <img src="images/white.png" alt="white" class="img-circle white" id="white_2">
+            <img src="images/white.png" alt="white" class="img-circle white" id="white_3">
+            <img src="images/white.png" alt="white" class="img-circle white" id="white_4">
+            <img src="images/white.png" alt="white" class="img-circle white" id="white_5"> 
         </div>
     </div>
-    <div class="col-xs-2">
-        <div class="env_box" align="center">
-            <i class="fa fa-envelope-o" id="fa_env"></i>
-        </div>
-    </div>
-
-    <div class="col-xs-4 col-xs-offset-4" align="center">
-        <img src="img/purple.png" alt="white" class="img-circle white" id="white_1">
-        <img src="img/white.png" alt="white" class="img-circle white" id="white_2">
-        <img src="img/white.png" alt="white" class="img-circle white" id="white_3">
-        <img src="img/white.png" alt="white" class="img-circle white" id="white_4">
-        <img src="img/white.png" alt="white" class="img-circle white" id="white_5">
-    </div>
-</div>
-
+    
 <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
 
- <div class="blank1"></div>
+    <div class="blank1"></div>
     <div class="container-fluid con3">
             <a href="final.html">
             <div class="col-xs-4" id="con3_row1_1">
@@ -60,13 +55,17 @@
             </a>
             
             <div class="col-xs-4 con3_row2">
+            	<a href="final2.html">
                <div class="con3_row2_box">
                  <p class="sp" id="t1">海外酒店</p>
                </div>
+               </a>
                <div class="con3_row2_b"></div> 
+               <a href="final3.html">
                <div class="con3_row2_box">
                  <p class="sp" id="t2">特价酒店</p>
                </div> 
+               </a>
             </div>
                 <div class="col-xs-4 con3_row2">
                <div class="con3_row2_box">
@@ -102,26 +101,34 @@
                  <p class="sp" id="t7">汽车票·船票</p>
                </div>
                <div class="con3_row2_b"></div> 
+               <a href="driving.html">
                <div class="con3_row2_1_box">
                  <p class="sp" id="t8">用·租车</p>
                </div> 
+               </a>
             </div>
     </div>
     
     <div class="blank1"></div>
            <div class="container-fluid con3">
+           	 <a href="travel.html">
             <div class="col-xs-4" id="con3_row3_1">
                  <p class="bp">旅&nbsp游</p>
                  <i class="fa fa-female" id="fa_female"></i>
             </div>
+            </a>
             <div class="col-xs-4 con3_row2">
+            	<a href="travel2.html">
                 <div class="con3_row2_2_box">
                  <p class="sp" id="t9">目的地攻略</p>
                </div>
+               </a>
                <div class="con3_row2_b"></div> 
+               <a href="travel3.html">
                <div class="con3_row2_2_box">
                  <p class="sp" id="t10">周边游</p>
                </div> 
+               </a>
             </div>
             <div class="col-xs-4 con3_row2">
                  <div class="con3_row2_2_box">
@@ -167,98 +174,98 @@
 
 <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
 
-<div class="blank2"></div>
-<div class="container-fluid con4">
-    <div class="col-xs-3 con4_row">
-        <img src="img/自由行.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/主题游.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/一日游.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/顶级游.png" class="pic_4">
-    </div>
+       <div class="blank2"></div>
+           <div class="container-fluid con4">
+              <div class="col-xs-3 con4_row">
+               <img src="images/自由行.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/主题游.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/一日游.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/顶级游.png" class="pic_4">
+            </div>
 
-    <div class="col-xs-3 con4_row">
-        <img src="img/酒店+景点.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/亲子.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/外币兑换.png" class="pic_4">
-    </div>
-    <div class="col-xs-3 con4_row">
-        <img src="img/更多.png" class="pic_4">
-    </div>
-</div>
+             <div class="col-xs-3 con4_row">
+               <img src="images/酒店+景点.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/亲子.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/外币兑换.png" class="pic_4">
+            </div>
+            <div class="col-xs-3 con4_row">
+               <img src="images/更多.png" class="pic_4">
+            </div>
+        </div>
 
 <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
-<div class="blank3"></div>
+    <div class="blank3"></div>
 
-<div class="container-fluid con5">
-    <div class="col-xs-4 con5_row1">
-        <p id="p1">特卖汇</p>
-    </div>
-    <div class="col-xs-6 col-xs-offset-2 con5_row1">
-        <div id="box1" align="center">
-            <p id="p2">领红包再下单 ></p>
-        </div>
-    </div>
-    <div class="clearfix visible-xs-block"></div>
-    <div class="col-xs-6 con5_row2">
-        <img src="img/云南.png" class="pic_5">
-    </div>
-    <div class="col-xs-6 con5_row2">
-        <img src="img/千款特价.png" class="pic_6">
-        <img src="img/海外.png" class="pic_7">
-        <img src="img/周边.png" class="pic_7">
-    </div>
-</div>
+   <div class="container-fluid con5">
+      <div class="col-xs-4 con5_row1">
+         <p id="p1">特卖汇</p>
+         </div>
+         <div class="col-xs-6 col-xs-offset-2 con5_row1">
+       <div id="box1" align="center">
+          <p id="p2">领红包再下单 ></p>   
+       </div>
+       </div>
+       <div class="clearfix visible-xs-block"></div>
+       <div class="col-xs-6 con5_row2">
+          <img src="images/云南.png" class="pic_5">
+       </div>
+       <div class="col-xs-6 con5_row2">
+          <img src="images/千款特价.png" class="pic_6">
+          <img src="images/海外.png" class="pic_7">
+          <img src="images/周边.png" class="pic_7">
+       </div>  
+   </div>
+
+<!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+ <div class="blank4"></div>
+     <div class="container-fluid con6">
+        <div class="col-xs-4 con6_row1">
+         <p id="p3">热门活动</p>
+         </div>
+
+        <div class="col-xs-6 col-xs-offset-2 con6_row1">
+       <div id="box2" align="center">
+          <p id="p2">获得更多福利 ></p>   
+       </div>
+       </div> 
+     </div>
 
 <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
 <div class="blank4"></div>
-<div class="container-fluid con6">
-    <div class="col-xs-4 con6_row1">
-        <p id="p3">热门活动</p>
-    </div>
+     <div class="container-fluid con7">
+       <div class="col-xs-6  con7_row1">
+          <div id="box3">
+              <img src="images/签到.png" class="pic_8">
+          </div>
+       </div>
+       <div class="col-xs-6  con7_row1">
+          <div id="box3">
+              <img src="images/笔记本.png" class="pic_9">
+              <img src="images/舞台剧.png" class="pic_9">
+          </div>
+       </div>
+       <div class="col-xs-6  con7_row1">
+           <div id="box4">
+              <img src="images/免费游日本.png" class="pic_8">
+          </div>
+       </div>
 
-    <div class="col-xs-6 col-xs-offset-2 con6_row1">
-        <div id="box2" align="center">
-            <p id="p2">获得更多福利 ></p>
-        </div>
-    </div>
-</div>
-
-<!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
-<div class="blank4"></div>
-<div class="container-fluid con7">
-    <div class="col-xs-6  con7_row1">
-        <div id="box3">
-            <img src="img/签到.png" class="pic_8">
-        </div>
-    </div>
-    <div class="col-xs-6  con7_row1">
-        <div id="box3">
-            <img src="img/笔记本.png" class="pic_9">
-            <img src="img/舞台剧.png" class="pic_9">
-        </div>
-    </div>
-    <div class="col-xs-6  con7_row1">
-        <div id="box4">
-            <img src="img/免费游日本.png" class="pic_8">
-        </div>
-    </div>
-
-    <div class="col-xs-6  con7_row1">
-        <div id="box4">
-            <img src="img/上海场预售.png" class="pic_8">
-        </div>
-    </div>
-</div>
+       <div class="col-xs-6  con7_row1">
+           <div id="box4">
+              <img src="images/上海场预售.png" class="pic_8">
+          </div>
+       </div>
+     </div>
 
 <!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
 <nav class="navbar navbar-default navbar-fixed-bottom" >
@@ -269,9 +276,9 @@
         <a class="btn btn-default navbar-left no-bg col-xs-3 nav-pad no-bor" href="my.html"><i class="fa fa-user fa-lg"></i><p>我的</p></a>
     </div>
 </nav>
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
-<link href="css/hsz.css" rel="stylesheet">
-<script src="js/jvs.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script src="js/index-js.js"></script>
 </body>
 </html>
