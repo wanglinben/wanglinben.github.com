@@ -23,6 +23,7 @@
 }
 #myCarousel{
 	bottom: 40px;
+    z-index: -1;
 }
 #im{
 	height: 200px;

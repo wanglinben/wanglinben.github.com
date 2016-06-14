@@ -26,6 +26,7 @@
 }
 #myCarousel{
 	bottom: 40px;
+    z-index: -1;
 }
 .carousel-indicators .active {
 	background-color: #00C2AF;
