@@ -1,0 +1,348 @@
+/*容器con1和con2*/
+.con1{
+	height: 100px;
+	width:  100%;
+	background-image: url(../images/red.png);
+    background-size:100% 100px;
+}
+
+.con2{
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.white{
+    margin-top: 30px;
+    margin-left: 2px;
+    width: 7px;
+    height: 7px;
+}
+
+#fa_search{
+    margin-top: 5px;
+    margin-left: -15px;
+    font-size: 20px;
+    color: #D8D8D8
+}
+
+.con2_fa{
+    float: right;
+}
+
+#fa_mir{
+    margin-top: 5px;
+    margin-right: -10px;
+    font-size: 20px;
+    color: #0066ff;
+}
+
+.env_box{
+    margin-top: 10px;
+    width: 45px;
+    height: 35px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#fa_env{
+    margin-top: 3px;
+    font-size: 25px;
+    color: #0099ff;
+}
+
+input{
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    width: 100%;
+    border: 1px solid white;
+    font-family: Georgia; 
+}
+
+/*容器con3*/
+.con3{
+    height: 100px;
+    width:  100%;
+    padding: 0;
+}
+
+#con3_row1_1{
+    background-color: #fd5064;
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.bp{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#fa_bank{
+    margin-top: 7px;
+    font-size: 30px;
+    color: white;
+}
+
+.con3_row2{
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 0.5%;
+}
+
+.con3_row2_box{
+    height: 48%;
+    width: 100%;
+    background-color: #fd5064;
+}
+
+.con3_row2_b{
+    height: 3%;
+}
+
+.sp{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#con3_row2_1{
+    background-color: #3d99ff;
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#fa_plane{
+    margin-top: 7px;
+    font-size: 30px;
+    color: white;
+}
+
+.con3_row2_1{
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 0.5%;
+}
+
+.con3_row2_1_box{
+    height: 48%;
+    width: 100%;
+    background-color: #3d99ff;
+}
+
+#con3_row3_1{
+    background-color: #4fc82f;
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 1%;
+    text-align: center;
+}
+
+#fa_female{
+    margin-top: 7px;
+    font-size: 30px;
+    color: white;
+}
+
+.con3_row2_2_box{
+    height: 48%;
+    width: 100%;
+    background-color: #4fc82f;
+}
+
+.con3_row2_3_box{
+    height: 48%;
+    width: 100%;
+    background-color: #fc9820;
+}
+.con3_row3{
+    height: 100%;
+    width: 32.3%;
+    padding: 0;
+    margin-left: 1%;
+}
+
+
+/*容器con4*/
+.con4{
+    height: 120px;
+    width:  100%;
+    padding: 0;
+}
+
+.con4_row{
+    height: 50%;
+}
+
+.pic_4{
+   width: 100%;
+   height: 100%;
+}
+
+.blank1{
+    height: 5px;
+}
+
+.blank2{
+    height: 5px;
+    background-color: #F8F8F8;
+}
+
+/*容器con5*/
+.con5{
+    height: 237px;
+    width:  100%;
+    padding: 0;
+}
+
+.con5_row1{
+    height: 37px;
+    padding: 8px;
+}
+
+.con5_row2{
+    height: 200px;
+    padding: 8px;
+}
+
+.blank3{
+    height: 5px;
+    background-color: #F0F0F0;
+}
+
+#p1{
+    float: left;
+    color: red;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+#box1{
+    float: right;
+    margin-top: 5px;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #FF00CC;
+}
+
+#p2{
+    margin-top: -2px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.pic_5{
+   width: 100%;
+   height: 100%;
+}
+
+.pic_6{
+   width: 100%;
+   height: 50%;
+}
+
+.pic_7{
+   width: 48.5%;
+   height: 50%;
+}
+
+/*容器con6*/
+.blank4{
+    height: 10px;
+    background-color: #F0F0F0;
+}
+
+.con6{
+    height: 40px;
+    padding: 0;
+}
+
+.con6_row1{
+    padding: 8px;
+}
+
+#p3{
+    float: left;
+    margin-top: -5px;
+    color: gold;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+#box2{
+    float: right;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+/*容器con7*/
+.con7{
+    height: 240px;
+    padding: 0;
+}
+
+.con7_row1{
+    padding: 0;
+}
+
+#box3{
+   width: 100%;
+   height: 160px;
+   border: 1px solid #D0D0D0;
+}
+
+#box4{
+   width: 100%;
+   height: 80px;
+   border: 1px solid #D0D0D0;
+}
+
+.pic_8{
+    width: 100%;
+    height: 100%;
+}
+
+.pic_9{
+    width: 100%;
+    height: 50%;
+}
+
+/*容器con7*/
+.con8{
+    padding: 0;
+
+    width: 100%
+    height:80px;
+}
+
+.con8_row{
+    width: 25%;
+    height: 80px;
+    padding: 0;
+}
+
+.pic_10{
+   width: 100%;
+   height: 100%;
+}
