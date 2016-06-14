@@ -65,15 +65,15 @@ function reCycle(){
 // }
 
 fa_search.onclick = function(){
-     location.href="sub-html/search.html";
+     location.href="search.html";
 }
 
 inp_search.onclick = function(e){
-    location.href="sub-html/search.html";
+    location.href="search.html";
 }
 
 fa_env.onclick = function(e){
-    location.href="sub-html/envelope.html";
+    location.href="envelope.html";
 }
 
 reCycle();
